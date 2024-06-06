@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/btnList"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddBookPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAboutPage"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/btnAbout"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSettings" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/btnSettings"
+        app:layout_constraintBottom_toTopOf="@+id/btnAboutPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddBookPage" />
+
+    <Button
+        android:id="@+id/btnAddBookPage"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:text="@string/btnAddBookPage"
+        app:layout_constraintBottom_toTopOf="@+id/btnSettings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnList" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="172dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="170dp"
+        android:text="@string/logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAboutPage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

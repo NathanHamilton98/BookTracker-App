@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">BookTracker</string>
+    <string name="welcomeMsg">Welcome to the BookTracker App</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnCreateAccout">Create Account</string>
+    <string name="btnList">Book List</string>
+    <string name="btnSearch">Search</string>
+    <string name="btnAddBookPage">Add a Book</string>
+    <string name="btnBack">Back</string>
+    <string name="btnSettings">Settings</string>
+    <string name="About">About this App</string>
+    <string name="btnAbout">About Page</string>
+    <string name="AboutDescription">This application was created by Nathan Hamilton and Melvin White as their software developement capstone project.
+    This application allows the user to store and retrieve information on books.</string>
+    <string name="checkbox1">Action</string>
+    <string name="checkbox2">Adventure</string>
+    <string name="checkbox3">Fantasy</string>
+    <string name="checkbox4">Sci-Fi</string>
+    <string name="checkbox5">Romance</string>
+    <string name="checkbox6">Non-fiction</string>
+    <string name="checkbox7">Mystery</string>
+    <string name="checkbox8">Thriller</string>
+    <string name="author">Author Name:</string>
+    <string name="bookTitle">Book Title:</string>
+    <string name="bookAuthor">Book Author</string>
+    <string name="book">Book</string>
+    <string name="seriesName">Series (Optional):</string>
+    <string name="genres">Select Genres:</string>
+    <string name="year">Publication Year (Optional):</string>
+    <string name="description">Book Description:</string>
+    <string name="putUsername">Enter your username:</string>
+    <string name="currentPassword">Enter your current password:</string>
+    <string name="newPassword">Enter your new password:</string>
+    <string name="settingsPurpose">Change your password here</string>
+    <string name="btnAddBook">Add Book</string>
+    <string name="btnEditBook">Edit Book</string>
+    <string name="btnDeleteBook">Delete Book</string>
+    <string name="listView">List View</string>
+    <string name="btnChangePassword">Change Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="passwordRules">The password must be at least 6 characters, include one or more Capital letters, and include one or more numbers</string>
+    <string name="logout">Logout</string>
+</resources>
